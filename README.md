@@ -22,7 +22,7 @@ Real-Time Interaction: Supports real-time conversation, allowing continuous, han
 
 **Installation**
 Clone the Repository:
-git clone https://github.com/yourusername/serenity-ai.git
+git clone https://github.com/Devanshi098/serenityAI.git
 cd serenity-ai
 
 Install Dependencies: Make sure you have Python 3.7+ installed, then install required packages:
