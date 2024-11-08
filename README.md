@@ -1,5 +1,3 @@
-**Serenity AI: Real-Time Mental Health Assistant**
-Welcome to Serenity AI, a real-time mental health assistant designed to support mental well-being through AI-powered conversational interactions, mood tracking, and personalized recommendations. Serenity AI aims to be a companion for those seeking mental health support, providing real-time insights and helpful resources.
 
 Table of Contents
 About Serenity AI
@@ -12,15 +10,14 @@ Contributing
 License
 
 
-**bout Serenity AI**
-Serenity AI is built to facilitate accessible mental health support by leveraging natural language processing, emotion recognition, and intelligent response systems. The platform is designed for real-time, empathetic engagement, offering users a private and supportive space to manage their mental health.
+**About Serenity AI**
+Serenity AI is an interactive, voice-controlled mental health assistant designed to engage users in real-time conversations, provide compassionate responses, and support mental well-being. This application utilizes Google Cloud’s Speech-to-Text and Text-to-Speech services to recognize and respond to spoken queries, and it leverages the Gemini AI model for generating conversational responses.
 
 **Features**
-Real-Time Conversations: Engage in real-time chats with an AI assistant trained to respond compassionately and thoughtfully.
-Mood Tracking: Track emotional states over time to gain insights into personal mental health trends.
-Personalized Recommendations: Receive suggested mindfulness activities, self-care resources, and articles based on mood data.
-Anonymity and Privacy: Built with user privacy in mind; all conversations are secure and confidential.
-Voice-Controlled Options (if applicable): Interact with the assistant via voice commands for hands-free access.
+Voice Recognition: Converts spoken input into text using Google Cloud Speech-to-Text.
+AI-Driven Conversations: Generates intelligent, empathetic responses through Gemini AI.
+Text-to-Speech Responses: Converts AI responses back to speech, creating a natural conversational flow.
+Real-Time Interaction: Supports real-time conversation, allowing continuous, hands-free interaction.
 
 
 **Installation**
@@ -43,24 +40,24 @@ Usage
 Chat with Serenity AI: Open the application and begin a conversation by typing or using voice commands.
 Track Moods: Update your mood status daily to observe trends.
 View Recommendations: Access personalized suggestions based on recent interactions.
-**Technologies Used**
-Python: Core programming language
-Natural Language Processing: For conversational AI and sentiment analysis
-Emotion Recognition APIs: To provide insights into user emotions
 
-Project Structure
-css
-Copy code
+**Technologies Used**
+Python: Primary programming language
+Google Cloud Speech-to-Text: For voice recognition
+Google Cloud Text-to-Speech: To synthesize responses as spoken audio
+Generative AI (Gemini AI): Provides conversational responses
+PyAudio: For audio input
+Pygame: For audio playback
+
 serenity-ai/
-├── src/
-│   ├── models/
-│   ├── controllers/
-│   ├── views/
-├── data/
-├── tests/
-├── requirements.txt
-├── README.md
-└── .env.example
+├── main.py                      # Main application script
+├── key.json                     # Google Cloud Speech-to-Text credentials
+├── keyTTS.json                  # Google Cloud Text-to-Speech credentials
+├── requirements.txt             # Project dependencies
+├── README.md                    # Project documentation
+└── .env.example                 # Example environment file for API keys
+
+
 Contributing
 We welcome contributions to Serenity AI! Please follow these steps:
 
